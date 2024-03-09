@@ -1,0 +1,53 @@
+/* Global styles */
+:root {
+    --pri-nutmeg: hsl(14, 45%, 36%);
+    --pri-dk-rasp: hsl(332, 51%, 32%);
+    --neu-white: hsl(0, 0%, 100%);
+    --neu-rose-white: hsl(330, 100%, 98%);
+    --neu-eggshell: hsl(30, 54%, 90%);
+    --neu-lt-gry: hsl(30, 18%, 87%);
+    --neu-wenge-brown: hsl(30, 10%, 34%);
+    --neu-dk-charcoal: hsl(24, 5%, 18%);
+}
+
+body, h1, h2, h3, h4, h5, h6, p,
+dl dd, blockquote, figure {
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Outfit';
+    background: var(--neu-eggshell);
+}
+
+h1, h2 {
+    font-family: 'Young Serif';
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.25rem;
+}
+
+/* Mobile styles */
+.recipe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: var(--neu-white);
+}
+
+.recipe-content {
+    margin: 0 2rem;
+}
+
+.omelette {
+    height: 10.5rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+
